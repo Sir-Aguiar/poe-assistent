@@ -6,6 +6,7 @@ interface ISkillGem {
 	vendor_offer: string;
 	vendor_price: string;
 	effects: string[];
+	
 }
 
 export { ISkillGem };

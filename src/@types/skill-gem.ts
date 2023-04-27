@@ -1,12 +1,14 @@
-
 interface ISkillGem {
-	class: "Active Skill Gem" | "Support Skill Gem" | "Vaal Skill Gem";
 	name: string;
 	description: string;
-	vendor_offer: string;
-	vendor_price: string;
-	effects: string[];
-	
+	requirement: string;
+	modifiers: string[];
+	properties: string[];
+	images: {
+		skill_icon: string;
+		gem_icon: string;
+	};
+	isCorrupted: boolean;
 }
 
 export { ISkillGem };

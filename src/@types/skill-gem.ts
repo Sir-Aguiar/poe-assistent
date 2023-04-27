@@ -11,4 +11,6 @@ interface ISkillGem {
 	isCorrupted: boolean;
 }
 
-export { ISkillGem };
+type TGemsColors = "gem_green" | "gem_red" | "gem_blue";
+
+export { ISkillGem, TGemsColors };
